@@ -63,22 +63,22 @@
   margin-bottom : 6px ;
 }
 
-/* #main-div {
+#main-div {
   height: 1600px;
   overflow-y: hidden;
-} */
+}
 
 
 .upperContainer{
   text-align: center;
-  background : pink;
+  /* background : pink; */
 font-family: 'IM Fell English SC', serif;
 font-size: 70px;
 }
 
 .details{
   text-align: center;
-  background : pink;
+  /* background : pink; */
   padding: 5px;
   font-family: 'Song Myung', serif;
   border-bottom : 1px groove rgb(92, 91, 91);
