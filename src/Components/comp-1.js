@@ -1,7 +1,7 @@
 import React from 'react';
-import {StoriesContainer} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/Containers/storyCont.js';
-import {Story} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/Stories/story.js';
-import {sorting} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/utilities/sorting'
+import {StoriesContainer} from '../Containers/storyCont';
+import {Story} from '../Stories/story';
+//import {sorting} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/utilities/sorting'
 
 const calcLength = (arr) =>{
     return arr.length;

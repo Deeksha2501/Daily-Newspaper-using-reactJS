@@ -1,6 +1,6 @@
 import React from 'react';
-import {StoriesContainer} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/Containers/storyCont.js';
-import {Story} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/Stories/story.js';
+import {StoriesContainer} from '../Containers/storyCont';
+import {Story} from '../Stories/story';
 
 export const Story_comp3 = () => {
     const stories = StoriesContainer();
