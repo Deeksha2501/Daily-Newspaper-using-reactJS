@@ -1,0 +1,59 @@
+#page-wrap { width: 100%; margin: 60px auto; }
+#page-wrap > div { margin: 0 0 50px 0; min-width: 500px; width: 100%; }
+
+.main:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.main { display: inline-block; }
+
+#main-div {
+            position: relative; 
+            background: rgb(230, 230, 230); 
+            z-index: 1; 
+            margin: 0 10% ;
+            width: 80%; 
+        }
+        #main-div .comp { 
+            position: relative; 
+            padding: 1%; 
+            float: left; 
+            text-align: justify;
+            overflow-x: hidden;
+            font-family: 'Franklin Gothic';
+            font-size: 8px;
+            /* font-family: 'IM Fell Double Pica SC', serif; */
+            
+        }
+        #main-div .comp:nth-child(1) { left: 28%; width: 11%; }
+        #main-div .comp:nth-child(2) { left: -12.8%;  width: 27%;}
+        #main-div .comp:nth-child(3) { left: -2%;  width: 14%;}
+        #main-div .comp:nth-child(4) { left: -3%;  width: 9%;}
+        #main-div .comp:nth-child(5) { left: -4%;  width: 29%;}
+
+        #main-div .innercomp:nth-child(1) { left: -30%; width: 45%; }
+        #main-div .innercomp:nth-child(2) { left: 0;  width: 49%;}
+
+        .innercomp{
+          margin: 3px;
+          display: inline-grid;
+        }
+
+
+
+.cols_ex { -webkit-columns: 2 30px; -moz-columns: 2 30px; columns: 2 30px; margin : 0 }
+
+.cols_heading_ex {     -webkit-column-span: all;     column-span: all; } 
+
+.innerC{
+  margin-bottom : 6px ;
+}
+
+#main-div {
+  height: 1600px;
+  overflow-y: hidden;
+}
