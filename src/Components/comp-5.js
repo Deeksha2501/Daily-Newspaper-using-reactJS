@@ -9,7 +9,7 @@ export const Story_comp5 = () => {
     const stories = StoriesContainer();
     var len = stories.length;
     var len2 = len
-    var len1 = Math.ceil(69 * len/100);
+    var len1 = Math.ceil(65 * len/100);
     var l = len2-len1;
     const res1 = stories.slice(len1 , len1+(l/3));
     const res2 = stories.slice(len1+(l/3)+4 , len1+(2*l/3));

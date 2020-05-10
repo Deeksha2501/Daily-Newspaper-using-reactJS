@@ -61,7 +61,7 @@ export const Story = ({ storyId }) =>{
     return story && story.title && story.text? 
     (
         <div className="story">
-{Title}
+        <b>{Title}</b>
         {story.text}
     </div>
     )

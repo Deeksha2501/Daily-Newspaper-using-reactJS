@@ -10,10 +10,10 @@ export const Story_comp2 = () => {
     var len2 = Math.ceil(40 * len / 100);
     var len1 = Math.ceil(11 * len/100);
     var l = len2-len1;
-    const res = stories.slice(len1 , len1+2 )
-    const res1 = stories.slice(len1+2 , len1+(l/3));
+    const res = stories.slice(len1 , len1+3 )
+    const res1 = stories.slice(len1+3 , len1+(l/3));
     const res2 = stories.slice(len1+(l/3)+4 , len1+(2*l/3));
-    const res3 = stories.slice(len1+(2*l/3) , len2);
+    const res3 = stories.slice(len1+(2*l/3 + 2) , len2);
     const res4 = stories.slice(len1+(l/3) , len1+(l/3)+4);
     const res5 = stories.slice(len1+(2*l/3) , len1+(2*l/3)+2);
     console.log(res1);

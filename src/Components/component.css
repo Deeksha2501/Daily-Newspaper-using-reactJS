@@ -17,6 +17,11 @@
             z-index: 1; 
             margin: 0 10% ;
             width: 80%; 
+            border : 1px groove rgb(92, 91, 91);
+        }
+        .container{
+            margin : 2px;
+  border-top : 1px groove rgb(92, 91, 91);
         }
         #main-div .comp { 
             position: relative; 
@@ -24,8 +29,13 @@
             float: left; 
             text-align: justify;
             overflow-x: hidden;
-            font-family: 'Franklin Gothic';
+            /* font-family: 'Stylish', sans-serif; */
+            font-family: 'Song Myung', serif;
+            /* font-family: 'Sunflower', sans-serif; */
+            /* font-family: 'IM Fell English SC'; */
+            /* font-family: 'Franklin Gothic'; */
             font-size: 8px;
+            /* text-transform: capitalize; */
             /* font-family: 'IM Fell Double Pica SC', serif; */
             
         }
@@ -45,7 +55,7 @@
 
 
 
-.cols_ex { -webkit-columns: 2 30px; -moz-columns: 2 30px; columns: 2 30px; margin : 0 }
+.cols_ex { -webkit-columns: 2 30px; -moz-columns: 2 30px; columns: 2 30px; margin : 0 ; overflow-x: hidden; }
 
 .cols_heading_ex {     -webkit-column-span: all;     column-span: all; } 
 
@@ -53,7 +63,32 @@
   margin-bottom : 6px ;
 }
 
-#main-div {
+/* #main-div {
   height: 1600px;
   overflow-y: hidden;
+} */
+
+
+.upperContainer{
+  text-align: center;
+  background : pink;
+font-family: 'IM Fell English SC', serif;
+font-size: 70px;
+}
+
+.details{
+  text-align: center;
+  background : pink;
+  padding: 5px;
+  font-family: 'Song Myung', serif;
+  border-bottom : 1px groove rgb(92, 91, 91);
+  border-top : 1px groove rgb(92, 91, 91);
+}
+
+.image img{
+  padding-top: 10px;
+  height : 74px;
+  margin-bottom: -14px;
+  margin-right: -10px;
+  margin-left: -11px;
 }

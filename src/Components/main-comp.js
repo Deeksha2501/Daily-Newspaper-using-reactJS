@@ -11,9 +11,10 @@ import './component.css'
 export const Component = () => {
     return(
         <div className= "page-wrap">
-          <UpperComp />    
+           
         <div className = "main" id = "main-div">
-      
+        <UpperComp />  
+        <div className = "container">
         <div className = "comp-1 comp">
         <Story_comp1 />
         </div>
@@ -28,6 +29,7 @@ export const Component = () => {
         </div>
         <div className = "comp-5 comp">
         <Story_comp5 />
+        </div>
         </div>
         </div>
         </div>

@@ -3,6 +3,7 @@
     font-size: 11px;
     margin-top: 0;
     margin-bottom: 4px;
+   
     
     /* font-weight: 500; */
 }
@@ -14,20 +15,27 @@
 .bold1{
     margin-top: 0;
     font-size: 15px;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 900;
 }
 
 .bold2{
     margin-top: 0;
     font-size: 14px;
+    font-family: 'Stylish', sans-serif;
+    font-weight: 700;
 }
 
 .bold3{
     margin-top: 0;
     font-size: 13px;
     font-family: 'Dancing Script', cursive;
+    font-weight: 200;
 }
 
 .bold4{
     margin-top: 0;
     font-size: 12px;
+    /* font-weight: 300; */
+    font-weight: 200;
 } 
