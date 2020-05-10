@@ -15,8 +15,8 @@
             position: relative; 
             background: rgb(230, 230, 230); 
             z-index: 1; 
-            margin: 0 10% ;
-            width: 80%; 
+            margin: 0 20% ;
+            width: 60%; 
             border : 1px groove rgb(92, 91, 91);
         }
         .container{

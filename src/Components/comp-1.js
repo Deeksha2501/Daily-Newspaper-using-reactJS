@@ -1,7 +1,6 @@
 import React from 'react';
 import {StoriesContainer} from '../Containers/storyCont';
 import {Story} from '../Stories/story';
-//import {sorting} from 'C:/Users/hp/Desktop/PROJECTS/ASSIGNMENTS/assignment-privado/src/utilities/sorting'
 
 const calcLength = (arr) =>{
     return arr.length;
