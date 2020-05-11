@@ -68,7 +68,7 @@ _`npm init <initializer>` is available in npm 6+_
             ├── story.css
     
 
-    ```
+
 
 ### `npm start` or `yarn start`
 
