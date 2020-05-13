@@ -1,4 +1,7 @@
-## Quick Overview
+## Daily Newspaper
+It uses Hacker News Api for getting the recent news of the day. The UI is designed in the way so that it resembles with the traditional newspaper. [Get the finest news of the day](https://ds-dailynewspaper.herokuapp.com/)
+
+### Quick Overview
 
 After downloading the project to run it on your local system run the following commands
 
@@ -59,7 +62,6 @@ You will see the build errors and lint warnings in the console.
 
 <p align='center'>
 <img src='./src/ss1.png' width='600' alt='screenshot'>
-<img src='./src/ss2.png' width='600' alt='screenshot'>
 </p>
 
 
