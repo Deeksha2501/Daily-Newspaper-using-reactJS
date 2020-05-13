@@ -11,6 +11,13 @@
      }
 .main { display: inline-block; }
 
+@media only screen and (max-width: 800px), only screen and (max-device-width: 480px) {
+div#main-div {
+    width: 100%;
+    margin: 0px;
+    height : 100%;
+}
+}
 #main-div {
             position: relative; 
             background: rgb(230, 230, 230); 
