@@ -1,6 +1,8 @@
 ## Daily Newspaper
 It uses Hacker News Api for getting the recent news of the day. The UI is designed in the way so that it resembles with the traditional newspaper. [Get the finest news of the day](https://ds-dailynewspaper.herokuapp.com/)
 
+[![HitCount](http://hits.dwyl.com/Deeksha2501/Daily-Newspaper-using-reactJS.svg)](http://hits.dwyl.com/Deeksha2501/Daily-Newspaper-using-reactJS)
+
 ### Quick Overview
 
 After downloading the project to run it on your local system run the following commands
