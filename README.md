@@ -13,7 +13,7 @@ npm install
 ## File Tree
 
     ```
-    assignment-privado
+    Daily-Newspaper
     ├── README.md
     ├── node_modules
     ├── package.json
